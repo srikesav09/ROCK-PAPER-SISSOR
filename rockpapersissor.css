@@ -1,0 +1,45 @@
+.result{
+      font-size: 25px;
+      font-weight: bold;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding-left: 20px;
+
+    }
+    body{
+      font-family: Arial;
+      background-color:black;
+      color:white
+    }
+    .title{
+      padding : 30px;
+    }
+
+    .rock,.sis,.pap{
+      background-color: black;
+      border-radius: 100%;
+      border:3px white solid;
+      padding: 20px;
+      font-size: 50px;
+      margin-left: 15px;
+    }
+
+    .js-move{
+      font-size: 20px;
+      padding-bottom: 40px;
+      padding-left: 20px;
+    }
+
+    .js-score{
+      padding-left: 20px;
+      padding-bottom: 15px;
+    }
+    
+    .reset,.js-auto{
+      padding: 8px 20px;
+      font-size: 15px;
+      margin-left: 20px;
+      background-color: white;
+      color:black;
+      cursor: pointer;
+    }

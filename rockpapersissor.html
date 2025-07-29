@@ -1,0 +1,42 @@
+<head>
+  <title>
+    ROCKPAPERSISSOR
+  </title>
+  <meta name='viewport' content="width=device-width", initial-scale="1.0" >
+  <link rel="stylesheet" href="rockpapersissor.css">
+</head> 
+<body>
+
+ <h1 class="title">Rock Paper Sissors</h1>
+
+  <button onclick="
+   play('rock');
+  " class="rock">✊</button>
+
+
+  <button onclick="
+  play('paper');
+  " class="pap">🖐️</button>
+
+
+  <button onclick="
+  play('sissor');
+  " class="sis">✌️</button>
+<p class="js-res result"></p>
+<p class="js-move"></p>
+<p class="js-score"></p>
+<button onclick="
+score.wins=0;
+score.lose=0;
+score.tie=0;
+localStorage.removeItem('score');
+updatescore();
+" class="reset">Reset Score</button>
+<buttton class="js-auto" onclick="autoplay()">Auto Play</buttton>
+
+  <script src="rockpapersissor.js">
+</script>
+</body>
+
+
+
